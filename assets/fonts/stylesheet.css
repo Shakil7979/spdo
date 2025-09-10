@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Hero Bump';
+    src: url('HeroBump.woff2') format('woff2'),
+        url('HeroBump.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Scribble Sprouts';
+    src: url('ScribbleSprouts-Regular.woff2') format('woff2'),
+        url('ScribbleSprouts-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

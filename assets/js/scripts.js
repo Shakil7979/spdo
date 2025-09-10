@@ -1,22 +1,11 @@
-$(document).ready(function(){
-	// Mobile Menu
-	// $('.logo a i').click(function(){
-	// 	$('.menu ul').slideToggle(1000);
-
-	// 	return false
-	// });
-
-	// Banner Carousel
-	// $('.banner_carousel').owlCarousel({
-	// 	items:1,
-	// 	loop:true,
-	// 	nav:true,
-	// 	dots:true,
-	// 	autoplay:true,
-	// });
-
-
-
-
-
-});
+  
+  // Change image on active
+  document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('shown.bs.tab', () => {
+      document.querySelectorAll('.nav-link img').forEach(img => {
+        img.src = img.dataset.default;
+      });
+      const activeImg = link.querySelector('img');
+      activeImg.src = activeImg.dataset.active;
+    });
+  }); 

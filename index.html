@@ -9,52 +9,432 @@
         <meta property="og:url" content="">
         <meta property="og:image" content="">
 
-        <title>Web Template</title>
+        <title>SPDO</title>
         <link rel="icon" href="assets/images/favicon.png">
 
-        <!-- Bootstrap -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!-- Bootstrap --> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css"  />
         <!-- Fontawesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
-        <!-- Normalize -->
-        <link rel="stylesheet" href="assets/css/normalize.css">
+         
         <!-- CSS Files -->
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/fonts/stylesheet.css"> 
+        <link rel="stylesheet" href="assets/css/style.css"> 
         <link rel="stylesheet" href="assets/css/responsive.css">
     </head>
     <body> 
 
-        
-        <!--=====================  Start Header Area  ====================-->
-        <header class="header_area">
+        <div class="main-content"> 
+            <!--=====================  Start Header Area  ====================-->
+            <header class="header_area position-relative" > 
 
-        </header>
-        <!--=====================  End Header Area  ====================-->
+                <div class="header-bg">
+                    <img src="assets/images/header.png" alt="Header Image">
+                </div>
+                <div class="header-tabs"> 
+                    <!-- Tabs -->
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab">
+                            <img src="assets/images/menu/1.png" alt="Diamond" data-active="assets/images/menu/11.png" data-default="assets/images/menu/1.png">
+                        </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab">
+                            <img src="assets/images/menu/2.png" alt="Chat" data-active="assets/images/menu/22.png" data-default="assets/images/menu/2.png">
+                        </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab">
+                            <img src="assets/images/menu/3.png" alt="Game" data-active="assets/images/menu/33.png" data-default="assets/images/menu/3.png">
+                        </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="tab4-tab" data-bs-toggle="tab" data-bs-target="#tab4" type="button" role="tab">
+                            <img src="assets/images/menu/44.png" alt="Burger" data-active="assets/images/menu/44.png" data-default="assets/images/menu/4.png">
+                        </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="tab5-tab" data-bs-toggle="tab" data-bs-target="#tab5" type="button" role="tab">
+                            <img src="assets/images/menu/5.png" alt="Heart" data-active="assets/images/menu/55.png" data-default="assets/images/menu/5.png">
+                        </button>
+                        </li>
+                    </ul> 
+                </div>
+                   
 
-        <main class="main_area"> 
-            <!--=====================  Start Banner Area  ====================-->
-            <section class="banner_area">
+            </header>
+            <!--=====================  End Header Area  ====================-->
 
-            </section>
-            <!--=====================  End Banner Area  ====================--> 
-        </main>
-                
-        <!--=====================  Start Header Area  ====================-->
-        <footer class="footer_area">
-
-        </footer>
-        <!--=====================  End Header Area  ====================-->
+            <main class="main_area"> 
+                <!--=====================  Start Banner Area  ====================-->
+                <section class="main-box"> 
+                    <!-- Tab Content -->
+                    <div class="tab-content mt-18">
+                        <div class="tab-pane fade" id="tab1" role="tabpanel"> 
+                            <div class="tab-content-box"> 
+                                <h3>DIAMOND</h3>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" src="assets/images/category/1.png" alt="category">
+                                    <h4 class="game-point">150</h4>
+                                    <h2 class="game-title">My Goat Licks!</h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" style="right: 52px;" src="assets/images/category/2.png" alt="category">
+                                    <h4 class="game-point">100</h4>
+                                    <h2 class="game-title" style="color: #fff;">Panda Curry</h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" style="right: 56px;" src="assets/images/category/3.png" alt="category">
+                                    <h4 class="game-point">100</h4>
+                                    <h2 class="game-title" style="color: #fff360;">LOLasagna</h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" style="right: 58px;" src="assets/images/category/4.png" alt="category">
+                                    <h4 class="game-point">100</h4>
+                                    <h2 class="game-title" style="color: #fff; font-size: 16px;"><span style="color: #d70c1c;">Jelly</span> & <span style="color: #9aff4f;">Ice Cream</span></h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" style="right: 52px;" src="assets/images/category/5.png" alt="category">
+                                    <h4 class="game-point">100</h4>
+                                    <h2 class="game-title" style="color: #cba6ff;">Blueberry Pie</h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" style="right: 52px;" src="assets/images/category/6.png" alt="category">
+                                    <h4 class="game-point">100</h4>
+                                    <h2 class="game-title">Meaty Pie</h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" style="right: 52px;" src="assets/images/category/7.png" alt="category">
+                                    <h4 class="game-point">100</h4>
+                                    <h2 class="game-title" style="color: #fff;"><span style="color: #ffb33e;">PB</span> & <span style="color: #ff001a;">Jelly</span> </h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img position-relative">
+                                        <img class="last-game-img" src="assets/images/last-game.png" alt="game"> 
+                                        <img src="assets/images/last-game-icon.png" class="last-game-icon" alt="">
+                                    </div> 
+                                    <img class="game-icon" style="bottom: 63%; right: 52px;" src="assets/images/category/8.png" alt="category">
+                                    <h4 class="game-point" style="bottom: 64%;">100</h4>
+                                    <h2 class="game-title" style=" bottom: 54%;color: #ffe20d;">Spag ‘n’ BALLS</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab2" role="tabpanel">
+                            <div class="tab-content-box"> 
+                                <h3>MESSAGE</h3>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" src="assets/images/category/1.png" alt="category">
+                                    <h4 class="game-point">150</h4>
+                                    <h2 class="game-title">My Goat Licks!</h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" style="right: 52px;" src="assets/images/category/2.png" alt="category">
+                                    <h4 class="game-point">100</h4>
+                                    <h2 class="game-title" style="color: #fff;">Panda Curry</h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" style="right: 56px;" src="assets/images/category/3.png" alt="category">
+                                    <h4 class="game-point">100</h4>
+                                    <h2 class="game-title" style="color: #fff360;">LOLasagna</h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" style="right: 58px;" src="assets/images/category/4.png" alt="category">
+                                    <h4 class="game-point">100</h4>
+                                    <h2 class="game-title" style="color: #fff; font-size: 16px;"><span style="color: #d70c1c;">Jelly</span> & <span style="color: #9aff4f;">Ice Cream</span></h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" style="right: 52px;" src="assets/images/category/5.png" alt="category">
+                                    <h4 class="game-point">100</h4>
+                                    <h2 class="game-title" style="color: #cba6ff;">Blueberry Pie</h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" style="right: 52px;" src="assets/images/category/6.png" alt="category">
+                                    <h4 class="game-point">100</h4>
+                                    <h2 class="game-title">Meaty Pie</h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" style="right: 52px;" src="assets/images/category/7.png" alt="category">
+                                    <h4 class="game-point">100</h4>
+                                    <h2 class="game-title" style="color: #fff;"><span style="color: #ffb33e;">PB</span> & <span style="color: #ff001a;">Jelly</span> </h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img position-relative">
+                                        <img class="last-game-img" src="assets/images/last-game.png" alt="game"> 
+                                        <img src="assets/images/last-game-icon.png" class="last-game-icon" alt="">
+                                    </div> 
+                                    <img class="game-icon" style="bottom: 63%; right: 52px;" src="assets/images/category/8.png" alt="category">
+                                    <h4 class="game-point" style="bottom: 64%;">100</h4>
+                                    <h2 class="game-title" style=" bottom: 54%;color: #ffe20d;">Spag ‘n’ BALLS</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab3" role="tabpanel">
+                            <div class="tab-content-box"> 
+                                <h3>LATEST GAMES</h3>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" src="assets/images/category/1.png" alt="category">
+                                    <h4 class="game-point">150</h4>
+                                    <h2 class="game-title">My Goat Licks!</h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" style="right: 52px;" src="assets/images/category/2.png" alt="category">
+                                    <h4 class="game-point">100</h4>
+                                    <h2 class="game-title" style="color: #fff;">Panda Curry</h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" style="right: 56px;" src="assets/images/category/3.png" alt="category">
+                                    <h4 class="game-point">100</h4>
+                                    <h2 class="game-title" style="color: #fff360;">LOLasagna</h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" style="right: 58px;" src="assets/images/category/4.png" alt="category">
+                                    <h4 class="game-point">100</h4>
+                                    <h2 class="game-title" style="color: #fff; font-size: 16px;"><span style="color: #d70c1c;">Jelly</span> & <span style="color: #9aff4f;">Ice Cream</span></h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" style="right: 52px;" src="assets/images/category/5.png" alt="category">
+                                    <h4 class="game-point">100</h4>
+                                    <h2 class="game-title" style="color: #cba6ff;">Blueberry Pie</h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" style="right: 52px;" src="assets/images/category/6.png" alt="category">
+                                    <h4 class="game-point">100</h4>
+                                    <h2 class="game-title">Meaty Pie</h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" style="right: 52px;" src="assets/images/category/7.png" alt="category">
+                                    <h4 class="game-point">100</h4>
+                                    <h2 class="game-title" style="color: #fff;"><span style="color: #ffb33e;">PB</span> & <span style="color: #ff001a;">Jelly</span> </h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img position-relative">
+                                        <img class="last-game-img" src="assets/images/last-game.png" alt="game"> 
+                                        <img src="assets/images/last-game-icon.png" class="last-game-icon" alt="">
+                                    </div> 
+                                    <img class="game-icon" style="bottom: 63%; right: 52px;" src="assets/images/category/8.png" alt="category">
+                                    <h4 class="game-point" style="bottom: 64%;">100</h4>
+                                    <h2 class="game-title" style=" bottom: 54%;color: #ffe20d;">Spag ‘n’ BALLS</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade show active" id="tab4" role="tabpanel">
+                            <div class="tab-content-box"> 
+                                <h3>FOOD FIGHT</h3>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" src="assets/images/category/1.png" alt="category">
+                                    <h4 class="game-point">150</h4>
+                                    <h2 class="game-title">My Goat Licks!</h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" style="right: 52px;" src="assets/images/category/2.png" alt="category">
+                                    <h4 class="game-point">100</h4>
+                                    <h2 class="game-title" style="color: #fff;">Panda Curry</h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" style="right: 56px;" src="assets/images/category/3.png" alt="category">
+                                    <h4 class="game-point">100</h4>
+                                    <h2 class="game-title" style="color: #fff360;">LOLasagna</h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" style="right: 58px;" src="assets/images/category/4.png" alt="category">
+                                    <h4 class="game-point">100</h4>
+                                    <h2 class="game-title" style="color: #fff; font-size: 16px;"><span style="color: #d70c1c;">Jelly</span> & <span style="color: #9aff4f;">Ice Cream</span></h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" style="right: 52px;" src="assets/images/category/5.png" alt="category">
+                                    <h4 class="game-point">100</h4>
+                                    <h2 class="game-title" style="color: #cba6ff;">Blueberry Pie</h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" style="right: 52px;" src="assets/images/category/6.png" alt="category">
+                                    <h4 class="game-point">100</h4>
+                                    <h2 class="game-title">Meaty Pie</h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" style="right: 52px;" src="assets/images/category/7.png" alt="category">
+                                    <h4 class="game-point">100</h4>
+                                    <h2 class="game-title" style="color: #fff;"><span style="color: #ffb33e;">PB</span> & <span style="color: #ff001a;">Jelly</span> </h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img position-relative">
+                                        <img class="last-game-img" src="assets/images/last-game.png" alt="game"> 
+                                        <img src="assets/images/last-game-icon.png" class="last-game-icon" alt="">
+                                    </div> 
+                                    <img class="game-icon" style="bottom: 63%; right: 52px;" src="assets/images/category/8.png" alt="category">
+                                    <h4 class="game-point" style="bottom: 64%;">100</h4>
+                                    <h2 class="game-title" style=" bottom: 54%;color: #ffe20d;">Spag ‘n’ BALLS</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab5" role="tabpanel">
+                            <div class="tab-content-box"> 
+                                <h3>HEART</h3>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" src="assets/images/category/1.png" alt="category">
+                                    <h4 class="game-point">150</h4>
+                                    <h2 class="game-title">My Goat Licks!</h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" style="right: 52px;" src="assets/images/category/2.png" alt="category">
+                                    <h4 class="game-point">100</h4>
+                                    <h2 class="game-title" style="color: #fff;">Panda Curry</h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" style="right: 56px;" src="assets/images/category/3.png" alt="category">
+                                    <h4 class="game-point">100</h4>
+                                    <h2 class="game-title" style="color: #fff360;">LOLasagna</h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" style="right: 58px;" src="assets/images/category/4.png" alt="category">
+                                    <h4 class="game-point">100</h4>
+                                    <h2 class="game-title" style="color: #fff; font-size: 16px;"><span style="color: #d70c1c;">Jelly</span> & <span style="color: #9aff4f;">Ice Cream</span></h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" style="right: 52px;" src="assets/images/category/5.png" alt="category">
+                                    <h4 class="game-point">100</h4>
+                                    <h2 class="game-title" style="color: #cba6ff;">Blueberry Pie</h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" style="right: 52px;" src="assets/images/category/6.png" alt="category">
+                                    <h4 class="game-point">100</h4>
+                                    <h2 class="game-title">Meaty Pie</h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img">
+                                        <img src="assets/images/game.png" alt="game"> 
+                                    </div> 
+                                    <img class="game-icon" style="right: 52px;" src="assets/images/category/7.png" alt="category">
+                                    <h4 class="game-point">100</h4>
+                                    <h2 class="game-title" style="color: #fff;"><span style="color: #ffb33e;">PB</span> & <span style="color: #ff001a;">Jelly</span> </h2>
+                                </div>
+                                <div class="game-single position-relative">
+                                    <div class="game-img position-relative">
+                                        <img class="last-game-img" src="assets/images/last-game.png" alt="game"> 
+                                        <img src="assets/images/last-game-icon.png" class="last-game-icon" alt="">
+                                    </div> 
+                                    <img class="game-icon" style="bottom: 63%; right: 52px;" src="assets/images/category/8.png" alt="category">
+                                    <h4 class="game-point" style="bottom: 64%;">100</h4>
+                                    <h2 class="game-title" style=" bottom: 54%;color: #ffe20d;">Spag ‘n’ BALLS</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </section>
+                <!--=====================  End Banner Area  ====================--> 
+            </main>
+                      
+        </div>
  
 
 
         <!-- ~~~~~~~~~~ JS Files ~~~~~~~~~~-->
         <!-- jQuery -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/popper.min.js"></script>
-        <!-- Bootstrap -->
-        <script src="assets/js/bootstrap.min.js"></script>
-        <!-- Modernizr -->
-        <script src="assets/js/modernizr-3.11.2.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <!-- Bootstrap --> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.min.js"  ></script>
         <!-- Custom JS (Handed)-->
         <script src="assets/js/scripts.js"></script>
     </body>
