@@ -95,7 +95,7 @@ ul li a,a{
 }
 
 .tab-content-box > h3 {
-	font-size: 10px;
+	font-size: 12px;
 	text-align: center;
 	color: #fff;
 	margin-bottom: 10px;
@@ -116,7 +116,7 @@ ul li a,a{
 	font-size: 17px;
 	z-index: 9;
 	color: #fff;
-	/* font-family: 'Hero Bump'; */
+	font-family: 'Hero Bump';
 }
 
 .game-title {
