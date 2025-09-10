@@ -27,10 +27,15 @@ ul li a,a{
 	width: 100%;
 	margin: 0 auto;
 	background: #070030;
+	height: 100vh;
 }
 
 /*======================  Start Page  ======================*/
 
+.header_area {
+	position: fixed;
+	z-index: 99;
+}
 
 .header_area .nav-tabs {
 	border-bottom: none; /* no border */
@@ -107,6 +112,9 @@ ul li a,a{
 	z-index: 1;
 }
 
+.main-box {
+	padding-top: 82px;
+}
 
 /*======================  End Page  ======================*/
 
