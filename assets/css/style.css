@@ -5,8 +5,8 @@ html{
 }
 body{	
 	font-size: 1.6rem; 
-	font-weight: 400;
-	background: #070030;
+	font-weight: 400; 
+	overflow-x: hidden;
 	font-family: 'Scribble Sprouts';
 }
 h1,h2,h3,h4,h5,h6,p{
@@ -26,9 +26,33 @@ ul li a,a{
 	max-width: 320px;
 	width: 100%;
 	margin: 0 auto;
-	background: #070030;
-	height: 100vh;
+	height: calc(100vh - 78px); 
+	overflow-y: auto;
+	overflow-x: hidden;
+	background: #070030;  
+	margin-top: 78px;
+	scrollbar-width: thin;    
+  	scrollbar-color: #7f00ff #1a0033; 
+} 
+ 
+.main-content::-webkit-scrollbar {
+  width: 10px;               
 }
+
+.main-content::-webkit-scrollbar-track {
+  background: #1a0033;       
+  border-radius: 10px;
+}
+
+.main-content::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #ff00ff, #7f00ff);
+  border-radius: 10px;
+}
+
+.main-content::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #ff66ff, #9933ff);
+}
+
 
 /*======================  Start Page  ======================*/
 
@@ -92,12 +116,12 @@ ul li a,a{
 	font-size: 17px;
 	z-index: 9;
 	color: #fff;
-	font-family: 'Hero Bump';
+	/* font-family: 'Hero Bump'; */
 }
 
 .game-title {
 	position: absolute;
-	font-size: 18px;
+	font-size: 16px;
 	left: -7px;
 	right: 0;
 	margin: 0 auto;
@@ -119,8 +143,12 @@ ul li a,a{
 	z-index: 1;
 }
 
-.main-box {
+/* .main-box {
 	padding-top: 82px;
+} */
+
+.tab-content-box > p {
+	padding-left: 10px;
 }
 
 /*======================  End Page  ======================*/
